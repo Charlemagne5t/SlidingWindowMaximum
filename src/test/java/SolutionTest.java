@@ -15,7 +15,7 @@ public class SolutionTest {
     @Test
     public void maxSlidingWindowTest2() {
         int[] nums = {1};
-        int k = 3;
+        int k = 1;
         int[] expected = {1};
         int[] actual = new Solution().maxSlidingWindow(nums, k);
 
